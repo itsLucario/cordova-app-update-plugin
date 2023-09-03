@@ -1,5 +1,6 @@
 package com.mrspark.cordova.plugin;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.google.android.play.core.appupdate.AppUpdateManager;
 import com.google.android.play.core.tasks.Task;
 import com.google.android.play.core.install.model.UpdateAvailability;
@@ -19,7 +20,6 @@ import org.apache.cordova.CordovaWebView;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.design.widget.Snackbar;
 import android.R;
 import android.widget.FrameLayout;
 
